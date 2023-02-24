@@ -22,5 +22,5 @@ const bookSchema=new mongoose.Schema({
     }
 })
 
-//model is BookDB and collection name in db would be bookdb
+//model is BookDB and collection name in db would be bookdbs
 module.exports=mongoose.model("BookDB",bookSchema)
